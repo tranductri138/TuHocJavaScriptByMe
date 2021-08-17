@@ -26,6 +26,12 @@ console.log("🚀 ~ file: arraymethods.js ~ line 19 ~ newTris", newTris)
 
 
 let arra = [1,2,3,1,2]
+const s = new Set(arra);
 
-let newArra = arra.map(x => x);
+// Set là 1 data structure các element bên trong sẽ là unique
+console.log("🚀 ~ file: arraymethods.js ~ line 30 ~ s", s)
+for(const val of s){
+    console.log(val)
+}
+let newArra = arra.map(x => s.add(x));
 console.log("🚀 ~ file: arraymethods.js ~ line 34 ~ newArra", newArra)
