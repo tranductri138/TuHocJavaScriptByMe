@@ -30,8 +30,11 @@ const s = new Set(arra);
 
 // Set là 1 data structure các element bên trong sẽ là unique
 console.log("🚀 ~ file: arraymethods.js ~ line 30 ~ s", s)
+
+// for each  hihi
 for(const val of s){
     console.log(val)
 }
 let newArra = arra.map(x => s.add(x));
 console.log("🚀 ~ file: arraymethods.js ~ line 34 ~ newArra", newArra)
+
