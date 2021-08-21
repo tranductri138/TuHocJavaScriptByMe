@@ -38,3 +38,4 @@ for(const val of s){
 let newArra = arra.map(x => s.add(x));
 console.log("🚀 ~ file: arraymethods.js ~ line 34 ~ newArra", newArra)
 
+// array.reduce and ....
